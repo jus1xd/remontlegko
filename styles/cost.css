@@ -1,0 +1,78 @@
+.cost {
+  color: #00153F;
+}
+
+.cost__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cost__text {
+  width: 50%;
+}
+
+.cost__title {
+  margin-bottom: 50px;
+  color: #182B51;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.text__item {
+  font-size: 18px;
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+.text__item:first-child {
+  margin-top: 30px;
+}
+
+.cost__card {
+  background: linear-gradient(180deg, #F4F8FF 0%, white 100%);
+  color: #182B51;
+  text-align: center;
+  width: 315px;
+  height: 470px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 15px 5px #00000020;
+}
+
+.card__price {
+  font-size: 16px;
+  margin-top: 30px;
+}
+.card__price span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card__func {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card__subtitle {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 70px;
+}
+
+.small__button {
+  padding: 13px 40px;
+  border-radius: 15px;
+  margin-top: 70px;
+}

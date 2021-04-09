@@ -1,0 +1,99 @@
+// main works.css
+
+.works { 
+    color: var(--dark-blue);
+    padding: 0 50px;
+    user-select: none;
+}
+
+.works__content {
+    margin-top: 50px;
+}
+
+.works__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.works__subtitle {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+// !slider
+
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    position: absolute;
+    transition: .5s;
+    border-radius: 100%;
+
+    padding: 4px;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}
+
+.left__arrow {
+    left: -50px;
+    opacity: 0.4;
+}
+
+.right__arrow {
+    transform: rotate(180deg);
+    right: -50px;   
+}
+
+
+.slider__list {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.under {
+    margin-top: 70px;
+}
+
+.slider__track {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.slides__group {
+    display: flex;
+    max-width: 1200px;
+}
+
+.slider__list {
+    display: flex;
+    transition: .4s;
+    align-items: center;
+    transform: translateX(0);
+}
+
+.alone {
+    width: 1200px;
+}
+
+.alone div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mobile__arrow {
+    display: none;
+}
+

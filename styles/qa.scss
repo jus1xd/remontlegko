@@ -1,0 +1,64 @@
+// main qa.css
+
+.qa {
+    color: var(--dark-blue);
+}
+
+.qa__inner {
+    margin-top: 60px;
+}
+
+.title__container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer__item {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 40px;
+    user-select: none;
+    margin-top: 20px;
+}
+
+.answer__title {
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.answer__text {
+    overflow: hidden;
+    transition: .2s;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.answer__text__item {
+    line-height: 1.5rem;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.answer__item img {
+    margin-right: -20px;
+    transition: .2s;
+}
+
+.answer__item.hidden img {
+    transform: rotate(-90deg);
+}
+
+.answer__text {
+    transition: .2s;
+}
+
+.answer__text.hidden {
+    overflow: hidden;
+    height: 0 !important;
+    margin: 0;
+    padding: 0;
+}

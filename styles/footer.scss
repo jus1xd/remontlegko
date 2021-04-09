@@ -1,0 +1,55 @@
+// main footer.css
+
+.footer {
+    background-color: #182B51;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+
+.footer__links img {
+    width: 30px;
+    height: 30px;
+}
+
+.city {
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 5px;
+}
+
+.right__side div {
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 5px;
+}
+
+.center__side {
+    text-align: center; 
+}
+
+.center__side img {
+    // margin-top: 20px;
+    width: 160px;
+}
+
+.adress {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    opacity: .8;
+}
+
+.left__side {
+    width: 251px;
+}

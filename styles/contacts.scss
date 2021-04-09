@@ -1,0 +1,49 @@
+// main contacts.css
+
+.contacts {
+    color: #182B51;
+}
+
+.info__name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.info__phone {
+    margin-top: 10px;
+}
+
+.contact__card {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.card__info {
+    margin-left: 35px;
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__text {
+    margin-top: 60px;
+}
+
+.contacts__button {
+    padding: 13px 35px;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.btns {
+    display: flex;
+    justify-content: start;
+    width: 90%;
+}
